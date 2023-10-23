@@ -73,3 +73,15 @@ h1 {
   line-height: 0.9;
   text-align: center;
 }
+
+footer {
+  background-color: #3C2A1E;
+}
+
+footer h2 {
+  color: #FEFEFE;
+}
+
+footer ul li {
+  color: #FFFFFF;
+}
