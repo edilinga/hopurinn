@@ -1,3 +1,9 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 form {
     width: 300px;
     height: 44px;
@@ -35,3 +41,35 @@ form {
     height: 24px;
     padding: 10px;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bg {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Background2.jpg");
+    background-size: cover;
+}
+
+.bg::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+h1 {
+  position: relative;
+  color: #ffffff;  
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
