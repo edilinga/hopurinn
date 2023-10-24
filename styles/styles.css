@@ -80,8 +80,19 @@ footer {
 
 footer h2 {
   color: #FEFEFE;
+  font-family: "Lato";
 }
 
 footer ul li {
   color: #FFFFFF;
+  list-style-type: none;
+  font-family: "Lato";
+}
+
+
+
+/*Leturgerðir*/
+@font-face {
+  font-family: "Lato";
+  src: url(fonts\Lato);
 }
