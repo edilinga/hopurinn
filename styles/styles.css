@@ -110,8 +110,23 @@ footer .footer-copyright {
 
  .boxes{
   font-family: "Lato";
+  display: flex;
+  justify-content: center;
+
  }
 
+ .view-products {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6F4E37;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+ .view-products:hover {
+  background-color: #555;
+}
+ 
 
 /*Leturgerðir*/
 @font-face {
