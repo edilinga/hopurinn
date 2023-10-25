@@ -54,6 +54,7 @@ form {
     justify-content: center;
     background-image: url("../images/Background2.jpg");
     background-size: cover;
+    font-family: "Lato";
 }
 
 .bg::before {    
@@ -76,6 +77,10 @@ h1 {
 
 footer {
   background-color: #3C2A1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer h2 {
@@ -89,7 +94,18 @@ footer ul li {
   font-family: "Lato";
 }
 
+footer .footer-copyright {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Lato";
+ }
 
+ .footer-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; /* Aligns sections to the top if they have different heights */
+  padding: 0 20px; 
+ }
 
 /*Leturgerðir*/
 @font-face {
