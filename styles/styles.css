@@ -75,6 +75,73 @@ h1 {
   text-align: center;
 }
 
+
+
+/*
+Flugvélin
+*/
+ .boxes{
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+ }
+ 
+ .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; 
+  background-color: #ffffff;
+}
+
+/*
+Takki
+*/
+ .view-products {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6F4E37;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+ .view-products:hover {
+  background-color: #555;
+}
+ 
+/*
+Nokkrar af nýjustu vörunum okkar kaflinn
+*/
+.products-section {
+  font-family: "Lato";
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("../images/Background1.jpg");
+  background-size: cover;
+}
+
+
+.product-card {
+  display: inline-block;
+  border: 1px solid #eee;
+  margin: 0 20px;
+  padding: 20px;
+  width: 220px; /* adjust as necessary */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #fff;
+}
+
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 5px solid #eee;
+}
+
 footer {
   background-color: #3C2A1E;
   display: flex;
@@ -106,28 +173,7 @@ footer .footer-copyright {
   align-items: start; /* Aligns sections to the top if they have different heights */
   padding: 0 20px; 
  }
-
-
- .boxes{
-  font-family: "Lato";
-  display: flex;
-  justify-content: center;
-
- }
-
- .view-products {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #6F4E37;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
- .view-products:hover {
-  background-color: #555;
-}
  
-
 /*Leturgerðir*/
 @font-face {
   font-family: "Lato";
