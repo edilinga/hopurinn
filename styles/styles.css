@@ -107,6 +107,12 @@ footer .footer-copyright {
   padding: 0 20px; 
  }
 
+
+ .boxes{
+  font-family: "Lato";
+ }
+
+
 /*Leturgerðir*/
 @font-face {
   font-family: "Lato";
