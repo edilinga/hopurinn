@@ -74,6 +74,7 @@ header {
   opacity: 0.6;
 }
 
+
 .tilbod {
   position: relative;
   color: black;
@@ -81,7 +82,7 @@ header {
   line-height: 0.9;
   text-align: center;
 }
-
+  
 .keyptu {
   position: relative;
   color: black;
@@ -125,6 +126,7 @@ nav .anchor {
   text-decoration: none;
   margin: 0 10px;
 }
+
 
 nav .anchor:hover {
   text-decoration: underline;
@@ -182,6 +184,7 @@ Nokkrar af nýjustu vörunum okkar kaflinn
   background-image: url("../images/Background1.jpg");
   background-size: cover;
 }
+
 
 .product-card {
   display: inline-block;
@@ -259,12 +262,13 @@ footer .footer-copyright {
   margin-bottom: 10px;
 }
 
-.item h2,
+
+.item h2, 
 .item p {
   text-align: left;
 }
 
-.view-items {
+.view-items{
   display: inline-block;
   padding: 10px 20px;
   color: #3C2A1E;
@@ -277,4 +281,40 @@ footer .footer-copyright {
   width: 400px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*Leturgerðir*/
+@font-face {
+  font-family: "Lato";
+  src: url(fonts\Lato);
+}
+
+h2, h3, p {
+  font-family: "Lato";
+
+}
+
+
+/* Vara.html */
+
+.vara-h2 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.section-h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.fyrirsogn {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.vara-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
