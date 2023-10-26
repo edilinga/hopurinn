@@ -5,8 +5,6 @@ html {
 }
 
 form {
-    width: 300px;
-    height: 44px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -23,8 +21,7 @@ form {
   }
 
   ::placeholder {
-    color:  gray;
-    opacity: 0.7; 
+    color:  black;
   }
 
   button {
@@ -47,13 +44,12 @@ form {
     color: black;
   }
 
-  .bg {
+  header {
     position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../images/Background2.jpg");
-    background-size: cover;
+    font-family: "Lato";
 }
 
 .bg::before {    
@@ -63,13 +59,228 @@ form {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0);
 }
 
-h1 {
+.bg::before {
+  background-image: url("../images/Background2.jpg");
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.tilbod {
   position: relative;
-  color: #ffffff;  
+  color: black; 
   font-size: 14rem;
   line-height: 0.9;
   text-align: center;
 }
+.keyptu {
+  position: relative;
+  color: black; 
+  line-height: 0.9;
+  font-size: 4rem;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+nav h2 {
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+
+nav form {
+  flex-grow: 1;
+  margin: 0 170px; /* Adjust the spacing as needed */
+}
+
+nav form input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav form button {
+  border: none;
+  cursor: pointer;
+}
+
+nav .anchor {
+  color: black; /* Adjust the color of the links as needed */
+  text-decoration: none;
+  margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+nav .anchor:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/*
+Flugvélin
+*/
+ .boxes{
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+ }
+ 
+ .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; 
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/*
+Takki
+*/
+ .view-products {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6F4E37;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+ .view-products:hover {
+  background-color: #555;
+}
+
+
+ 
+/*
+Nokkrar af nýjustu vörunum okkar kaflinn
+*/
+.products-section {
+  font-family: "Lato";
+  text-align: center;
+  padding: 200px 0;
+  background-image: url("../images/Background1.jpg");
+  background-size: cover;
+}
+
+.product-card {
+  display: inline-block;
+  border: 1px solid #eee;
+  margin: 0 20px;
+  padding: 20px;
+  width: 220px; /* adjust as necessary */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #fff;
+}
+
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 5px solid #eee;
+}
+
+.container {
+  font-family: Lato;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #e1cec2;
+}
+
+
+footer {
+  background-color: #3C2A1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: #FEFEFE;
+  font-family: "Lato";
+  position: relative;
+  font-weight: 400;
+}
+
+footer ul li {
+  color: #FFFFFF;
+  list-style-type: none;
+  font-family: "Lato";
+}
+
+footer .footer-copyright {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Lato";
+ }
+
+ .footer-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; /* Aligns sections to the top if they have different heights */
+  padding: 0 20px; 
+  width: 60%;
+ }
+
+ .item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.item h2, 
+.item p {
+    text-align: left;
+}
+
+
+.view-items{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3C2A1E;
+  text-decoration: none;
+  transition: 0.3s ease;
+  border: 1px solid #000 !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  padding: 5px 10px !important;
+  width: 400px;
+}
+
+/*Leturgerðir*/
+@font-face {
+  font-family: "Lato";
+  src: url(fonts\Lato);
+}
+
+
