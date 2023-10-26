@@ -215,24 +215,26 @@ Nokkrar af nýjustu vörunum okkar kaflinn
 }
 
 
-/*Footer*/
 footer {
   background-color: #3C2A1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer h2 {
   color: #FEFEFE;
   font-family: "Lato";
+  position: relative;
+  font-weight: 400;
 }
 
- footer .content p {
-    border-bottom: solid 2px #E1CEC2;
-    font-size: x-large;
- }
-
- footer ul {
-    list-style: none;
- }
+footer ul li {
+  color: #FFFFFF;
+  list-style-type: none;
+  font-family: "Lato";
+}
 
 footer .footer-copyright {
   text-align: center;
@@ -253,6 +255,7 @@ footer .footer-copyright {
   padding: 10px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 
 .item img {
