@@ -150,6 +150,8 @@ Flugvélin
   align-items: center;
   width: 80%; 
   background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 /*
@@ -166,6 +168,8 @@ Takki
  .view-products:hover {
   background-color: #555;
 }
+
+
  
 /*
 Nokkrar af nýjustu vörunum okkar kaflinn
@@ -198,19 +202,27 @@ Nokkrar af nýjustu vörunum okkar kaflinn
   border: 5px solid #eee;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #e1cec2;
+}
 
 
 footer {
   background-color: #3C2A1E;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 footer h2 {
   color: #FEFEFE;
   font-family: "Lato";
+  position: relative;
 }
 
 footer ul li {
@@ -230,7 +242,30 @@ footer .footer-copyright {
   justify-content: space-between;
   align-items: start; /* Aligns sections to the top if they have different heights */
   padding: 0 20px; 
+  width: 60%;
  }
+
+ .item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.item button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
  
 /*Leturgerðir*/
 @font-face {
