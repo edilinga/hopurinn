@@ -206,6 +206,7 @@ Nokkrar af nýjustu vörunum okkar kaflinn
 }
 
 .container {
+  font-family: Lato;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -264,9 +265,9 @@ footer .footer-copyright {
 .view-items{
   display: inline-block;
   padding: 10px 20px;
-  color: #fff;
+  color: #3C2A1E;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 /*Leturgerðir*/
