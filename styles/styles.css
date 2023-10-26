@@ -180,7 +180,6 @@ Nokkrar af nýjustu vörunum okkar kaflinn
   background-size: cover;
 }
 
-
 .product-card {
   display: inline-block;
   border: 1px solid #eee;
@@ -259,12 +258,23 @@ footer .footer-copyright {
   margin-bottom: 10px;
 }
 
+.item h2, 
+.item p {
+    text-align: left;
+}
+
+
 .view-items{
   display: inline-block;
   padding: 10px 20px;
   color: #3C2A1E;
   text-decoration: none;
   transition: 0.3s ease;
+  border: 1px solid #000 !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  padding: 5px 10px !important;
+  width: 400px;
 }
 
 /*Leturgerðir*/
@@ -272,3 +282,5 @@ footer .footer-copyright {
   font-family: "Lato";
   src: url(fonts\Lato);
 }
+
+
