@@ -1,0 +1,124 @@
+form {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color:  black;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+}
+
+.bg::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.bg::before {
+  background-image: url("../images/Background2.jpg");
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.tilbod {
+  position: relative;
+  color: black; 
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
+.keyptu {
+  position: relative;
+  color: black; 
+  line-height: 0.9;
+  font-size: 4rem;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+nav h2 {
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+
+nav form {
+  flex-grow: 1;
+  margin: 0 170px; /* Adjust the spacing as needed */
+}
+
+nav form input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav form button {
+  border: none;
+  cursor: pointer;
+}
+
+nav .anchor {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav .anchor:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
