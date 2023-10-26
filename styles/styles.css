@@ -1,65 +1,71 @@
+@charset "UTF-8";
 body,
 html {
   height: 100%;
   margin: 0;
 }
 
+/*Leturgerðir*/
+@font-face {
+  font-family: "Lato";
+  src: url(fontsLato);
+}
 form {
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid black;
-  }
-
-  input {
-    all: unset;
-    font: 16px system-ui;
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
-  }
-
-  ::placeholder {
-    color:  black;
-  }
-
-  button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
-  
-  svg {
-    color: black;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-  }
-
-  header {
-    position: relative; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Lato";
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
 }
 
-.bg::before {    
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0);
+input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: black;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: black;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .bg::before {
@@ -70,14 +76,15 @@ form {
 
 .tilbod {
   position: relative;
-  color: black; 
+  color: black;
   font-size: 14rem;
   line-height: 0.9;
   text-align: center;
 }
+
 .keyptu {
   position: relative;
-  color: black; 
+  color: black;
   line-height: 0.9;
   font-size: 4rem;
   text-align: center;
@@ -91,7 +98,6 @@ nav {
   align-items: center;
   padding: 10px;
 }
-
 
 nav h2 {
   margin-left: 10px; /* Adjust the spacing as needed */
@@ -115,9 +121,9 @@ nav form button {
 }
 
 nav .anchor {
-  color: black; /* Adjust the color of the links as needed */
+  color: black;
   text-decoration: none;
-  margin: 0 10px; /* Adjust the spacing as needed */
+  margin: 0 10px;
 }
 
 nav .anchor:hover {
@@ -129,24 +135,22 @@ nav .anchor:hover {
   flex-direction: row;
 }
 
-
-
 /*
 Flugvélin
 */
- .boxes{
+.boxes {
   font-family: "Lato";
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
- }
- 
- .box {
+  height: 100vh;
+}
+
+.box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%; 
+  width: 80%;
   background-color: #ffffff;
   padding: 10px;
   margin-bottom: 15px;
@@ -155,7 +159,7 @@ Flugvélin
 /*
 Takki
 */
- .view-products {
+.view-products {
   display: inline-block;
   padding: 10px 20px;
   background-color: #6F4E37;
@@ -163,12 +167,11 @@ Takki
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
- .view-products:hover {
+
+.view-products:hover {
   background-color: #555;
 }
 
-
- 
 /*
 Nokkrar af nýjustu vörunum okkar kaflinn
 */
@@ -185,12 +188,11 @@ Nokkrar af nýjustu vörunum okkar kaflinn
   border: 1px solid #eee;
   margin: 0 20px;
   padding: 20px;
-  width: 220px; /* adjust as necessary */
+  width: 220px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   background-color: #fff;
 }
-
 
 .product-card img {
   width: 100%;
@@ -207,7 +209,6 @@ Nokkrar af nýjustu vörunum okkar kaflinn
   padding: 20px;
   background-color: #e1cec2;
 }
-
 
 footer {
   background-color: #3C2A1E;
@@ -234,17 +235,17 @@ footer .footer-copyright {
   text-align: center;
   color: #FFFFFF;
   font-family: "Lato";
- }
+}
 
- .footer-sections {
+.footer-sections {
   display: flex;
   justify-content: space-between;
   align-items: start; /* Aligns sections to the top if they have different heights */
-  padding: 0 20px; 
+  padding: 0 20px;
   width: 60%;
- }
+}
 
- .item {
+.item {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
@@ -258,13 +259,12 @@ footer .footer-copyright {
   margin-bottom: 10px;
 }
 
-.item h2, 
+.item h2,
 .item p {
-    text-align: left;
+  text-align: left;
 }
 
-
-.view-items{
+.view-items {
   display: inline-block;
   padding: 10px 20px;
   color: #3C2A1E;
@@ -277,10 +277,4 @@ footer .footer-copyright {
   width: 400px;
 }
 
-/*Leturgerðir*/
-@font-face {
-  font-family: "Lato";
-  src: url(fonts\Lato);
-}
-
-
+/*# sourceMappingURL=styles.css.map */
