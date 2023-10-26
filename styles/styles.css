@@ -5,8 +5,6 @@ html {
 }
 
 form {
-    width: 300px;
-    height: 44px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -23,7 +21,7 @@ form {
   }
 
   ::placeholder {
-    color:  gray;
+    color:  black;
   }
 
   button {
@@ -54,7 +52,7 @@ form {
     font-family: "Lato";
 }
 
-header::before {    
+.bg::before {    
     content: "";
     position: absolute;
     top: 0px;
@@ -70,32 +68,31 @@ header::before {
   opacity: 0.6;
 }
 
-h1 {
+
+.tilbod {
   position: relative;
   color: black; 
   font-size: 14rem;
   line-height: 0.9;
   text-align: center;
 }
-header h3 {
+  
+.keyptu {
   position: relative;
   color: black; 
   line-height: 0.9;
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 300px;
 }
 
 nav {
   position: relative;
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin-left: -276px;
-  margin-right: -276px;
 }
-
 
 
 nav h2 {
@@ -104,7 +101,7 @@ nav h2 {
 
 nav form {
   flex-grow: 1;
-  margin: 0 140px; /* Adjust the spacing as needed */
+  margin: 0 170px; /* Adjust the spacing as needed */
 }
 
 nav form input {
@@ -119,13 +116,14 @@ nav form button {
   cursor: pointer;
 }
 
-nav a {
+nav .anchor {
   color: black; /* Adjust the color of the links as needed */
   text-decoration: none;
   margin: 0 10px; /* Adjust the spacing as needed */
 }
 
-nav a:hover {
+
+nav .anchor:hover {
   text-decoration: underline;
 }
 
@@ -180,7 +178,7 @@ Nokkrar af nýjustu vörunum okkar kaflinn
 .products-section {
   font-family: "Lato";
   text-align: center;
-  padding: 40px 0;
+  padding: 200px 0;
   background-image: url("../images/Background1.jpg");
   background-size: cover;
 }
@@ -227,6 +225,7 @@ footer h2 {
   color: #FEFEFE;
   font-family: "Lato";
   position: relative;
+  font-weight: 400;
 }
 
 footer ul li {
@@ -263,12 +262,23 @@ footer .footer-copyright {
   margin-bottom: 10px;
 }
 
+
+.item h2, 
+.item p {
+    text-align: left;
+}
+
 .view-items{
   display: inline-block;
   padding: 10px 20px;
   color: #3C2A1E;
   text-decoration: none;
   transition: 0.3s ease;
+  border: 1px solid #000 !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  padding: 5px 10px !important;
+  width: 400px;
 }
 
 /*Leturgerðir*/
