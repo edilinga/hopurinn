@@ -110,6 +110,8 @@ Takki
  .view-products:hover {
   background-color: #555;
 }
+
+
  
 /*
 Nokkrar af nýjustu vörunum okkar kaflinn
@@ -148,13 +150,14 @@ footer {
   background-color: #3C2A1E;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 footer h2 {
   color: #FEFEFE;
   font-family: "Lato";
+  position: relative;
 }
 
 footer ul li {
@@ -174,7 +177,9 @@ footer .footer-copyright {
   justify-content: space-between;
   align-items: start; /* Aligns sections to the top if they have different heights */
   padding: 0 20px; 
+  width: 60%;
  }
+
  
 /*Leturgerðir*/
 @font-face {
