@@ -61,10 +61,13 @@ header::before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url("../images/Background2.jpg");
-    background-size: cover;
-    opacity: 0.6;
     background-color: rgba(0,0,0,0);
+}
+
+.bg::before {
+  background-image: url("../images/Background2.jpg");
+  background-size: cover;
+  opacity: 0.6;
 }
 
 h1 {
